@@ -10,6 +10,8 @@
   "author": "Adam",
   "license": "ISC",
   "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-cssmin": "^5.0.0",
     "sass": "^1.64.2"
   }
 }
