@@ -2969,8 +2969,6 @@ textarea.form-control-lg {
     padding-left: 0; }
   .navbar-nav .dropdown-menu {
     position: static; }
-  .navbar-nav .home-link {
-    color: red !important; }
 
 .navbar-text {
   padding-top: 0.5rem;
@@ -4665,12 +4663,6 @@ textarea.form-control-lg {
 
 .stay-updated-section {
   color: white; }
-
-.home-plan-section {
-  display: none; }
-
-.home-plan-section {
-  display: none; }
 
 .clearfix::after {
   display: block;
