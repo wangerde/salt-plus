@@ -1,0 +1,39 @@
+.home-page {
+  .banner-font-large {
+    @media screen and (max-width: 480px) {
+      font-size: 20px;
+    }
+  }
+  a.btn-primary {
+    margin-top: 2rem;
+    background: white;
+    color: $primary;
+    font-size: 20px;
+  }
+  .home-plan-section {
+    h1,
+    h4 {
+      color: white !important;
+    }
+  }
+  .pround-pioneer {
+    text-align: center;
+    padding: 0 10rem;
+    margin: 0 auto;
+    width: 70%;
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    h4 {
+      line-height: 1.5;
+      font-size: 38px;
+
+      @media screen and (max-width: 480px) {
+        font-size: 18px;
+      }
+    }
+  }
+}

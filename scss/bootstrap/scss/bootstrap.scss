@@ -43,12 +43,11 @@
 @import "carousel";
 @import "spinners";
 @import "offcanvas";
-@import "global";
-
 
 @import "home";
 
-@import './home.scss';
+@import "./home.scss";
+@import "./global.scss";
 
 // Helpers
 @import "helpers";

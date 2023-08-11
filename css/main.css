@@ -4661,8 +4661,73 @@ textarea.form-control-lg {
 .offcanvas.show {
   transform: none; }
 
+@media screen and (max-width: 480px) {
+  .home-page .banner-font-large {
+    font-size: 20px; } }
+
+.home-page a.btn-primary {
+  margin-top: 2rem;
+  background: white;
+  color: #134B4E;
+  font-size: 20px; }
+
+.home-page .home-plan-section h1, .home-page .home-plan-section .h1,
+.home-page .home-plan-section h4,
+.home-page .home-plan-section .h4 {
+  color: white !important; }
+
+.home-page .pround-pioneer {
+  text-align: center;
+  padding: 0 10rem;
+  margin: 0 auto;
+  width: 70%; }
+  @media screen and (max-width: 480px) {
+    .home-page .pround-pioneer {
+      width: 100%;
+      padding: 0 1rem; } }
+  .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
+    line-height: 1.5;
+    font-size: 38px; }
+    @media screen and (max-width: 480px) {
+      .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
+        font-size: 18px; } }
+
+@media screen and (max-width: 480px) {
+  .home-page .banner-font-large {
+    font-size: 20px; } }
+
+.home-page a.btn-primary {
+  margin-top: 2rem;
+  background: white;
+  color: #134B4E;
+  font-size: 20px; }
+
+.home-page .home-plan-section h1, .home-page .home-plan-section .h1,
+.home-page .home-plan-section h4,
+.home-page .home-plan-section .h4 {
+  color: white !important; }
+
+.home-page .pround-pioneer {
+  text-align: center;
+  padding: 0 10rem;
+  margin: 0 auto;
+  width: 70%; }
+  @media screen and (max-width: 480px) {
+    .home-page .pround-pioneer {
+      width: 100%;
+      padding: 0 1rem; } }
+  .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
+    line-height: 1.5;
+    font-size: 38px; }
+    @media screen and (max-width: 480px) {
+      .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
+        font-size: 18px; } }
+
 .stay-updated-section {
   color: white; }
+
+.bg-dark {
+  background-color: white !important; }
 
 .clearfix::after {
   display: block;
