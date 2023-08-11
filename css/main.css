@@ -4663,6 +4663,9 @@ textarea.form-control-lg {
 .offcanvas.show {
   transform: none; }
 
+.stay-updated-section {
+  color: white; }
+
 .home-plan-section {
   display: none; }
 
