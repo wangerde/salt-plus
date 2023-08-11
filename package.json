@@ -5,13 +5,30 @@
   "main": "index.js",
   "scripts": {
     "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
-    "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
+    "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css",
+    "compile-scss": "node-sass scss/bootstrap.scss css/main.css"
   },
   "author": "Adam",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.6.1",
     "grunt-contrib-cssmin": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0",
     "sass": "^1.64.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangerde/KleanLeaf.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/wangerde/KleanLeaf/issues"
+  },
+  "homepage": "https://github.com/wangerde/KleanLeaf#readme"
 }
