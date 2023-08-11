@@ -1,11 +1,15 @@
-  =>  Template Name    : CONSULT - Consultancy Website Template
+compile css:
+"scripts": {
+  "compile-scss": "node-sass scss/bootstrap.scss css/main.css"
+}
+note: scss/bootstrap.scss is the main scss file that will be compiled into main.css
 
-  =>  Template Link    : https://htmlcodex.com/consultancy-website-template-free
+once changes are saved in scss files, run command "npm run compile-scss"
 
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+6. (Optional) Watch for changes in SCSS files:
 
-  =>  Template Author  : HTML Codex
+If you want node-sass to automatically compile your SCSS files whenever you make changes, you can use the --watch flag. Update the script in your package.json to:
 
-  =>  Author Website   : https://htmlcodex.com
-
-  =>  About HTML Codex : HTML Codex is one of the top creators and publishers of Free HTML templates, HTML landing pages, HTML email templates and HTML snippets in the world. Read more at ( https://htmlcodex.com/about-us )
+"scripts": {
+  "compile-scss": "node-sass scss/bootstrap.scss css/style.css --watch"
+}
