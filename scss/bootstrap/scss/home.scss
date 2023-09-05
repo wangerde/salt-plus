@@ -37,3 +37,51 @@
     }
   }
 }
+
+.home-plan-section {
+  h1, h2 {
+    color: white;
+  }
+}
+
+.stay-updated-section {
+  h1 {
+    color: white;
+  }
+}
+
+.about-us-content {
+  color: white;
+  padding: 0 10rem;
+}
+
+.content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5rem;
+}
+
+.content-image {
+  flex: 1;
+  max-width: 35%;
+  margin-right: 2rem;
+}
+
+.content-text {
+  flex: 1;
+  max-width: 55%;
+}
+
+/* Media Query for small screens */
+@media (max-width: 1000px) {
+  .about-us-content {
+      padding: 0 1rem;
+  }
+  .content-block {
+      flex-direction: column;
+  }
+  .content-image, .content-text {
+      max-width: 100%;
+  }
+}
