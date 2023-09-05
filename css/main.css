@@ -4736,18 +4736,24 @@ textarea.form-control-lg {
   max-width: 55%; }
 
 .manufacturing-info {
-  font-size: 20px; }
+  font-size: 20px;
+  padding-left: 10rem; }
 
 .milk-chart-info {
   font-size: 40px;
   font-weight: bold;
-  color: #134B4E; }
+  color: #134B4E;
+  padding: 0 10rem; }
 
 .milk-chart-img {
-  width: 100%; }
+  width: 100%;
+  padding: 0 10rem; }
 
 .primary-font-color {
   color: #134B4E; }
+
+.team-members {
+  padding: 0 10rem; }
 
 /* Media Query for small screens */
 @media (max-width: 1600px) {
@@ -4769,10 +4775,17 @@ textarea.form-control-lg {
   .milk-chart-info {
     font-size: 18px;
     padding: 0 3rem; }
+  .milk-chart-img {
+    padding: 0; }
   .product-item {
     height: 300px; }
   .mobile-remove {
-    display: none; } }
+    display: none; }
+  .manufacturing-info {
+    font-size: 20px;
+    padding-left: 0; }
+  .team-members {
+    padding: 0; } }
 
 .home-page .carousel-caption {
   margin-top: 1rem; }
@@ -4836,18 +4849,24 @@ textarea.form-control-lg {
   max-width: 55%; }
 
 .manufacturing-info {
-  font-size: 20px; }
+  font-size: 20px;
+  padding-left: 10rem; }
 
 .milk-chart-info {
   font-size: 40px;
   font-weight: bold;
-  color: #134B4E; }
+  color: #134B4E;
+  padding: 0 10rem; }
 
 .milk-chart-img {
-  width: 100%; }
+  width: 100%;
+  padding: 0 10rem; }
 
 .primary-font-color {
   color: #134B4E; }
+
+.team-members {
+  padding: 0 10rem; }
 
 /* Media Query for small screens */
 @media (max-width: 1600px) {
@@ -4869,10 +4888,17 @@ textarea.form-control-lg {
   .milk-chart-info {
     font-size: 18px;
     padding: 0 3rem; }
+  .milk-chart-img {
+    padding: 0; }
   .product-item {
     height: 300px; }
   .mobile-remove {
-    display: none; } }
+    display: none; }
+  .manufacturing-info {
+    font-size: 20px;
+    padding-left: 0; }
+  .team-members {
+    padding: 0; } }
 
 .stay-updated-section {
   color: white; }
