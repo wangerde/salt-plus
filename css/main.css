@@ -4669,70 +4669,8 @@ textarea.form-control-lg {
 .offcanvas.show {
   transform: none; }
 
-@media screen and (max-width: 480px) {
-  .home-page .banner-font-large {
-    font-size: 20px; } }
-
-.home-page a.btn-primary {
-  margin-top: 2rem;
-  background: white;
-  color: #134B4E;
-  font-size: 20px; }
-
-.home-page .home-plan-section h1, .home-page .home-plan-section .h1,
-.home-page .home-plan-section h4,
-.home-page .home-plan-section .h4 {
-  color: white !important; }
-
-.home-page .pround-pioneer {
-  text-align: center;
-  padding: 0 10rem;
-  margin: 0 auto;
-  width: 70%; }
-  @media screen and (max-width: 480px) {
-    .home-page .pround-pioneer {
-      width: 100%;
-      padding: 0 1rem; } }
-  .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
-    line-height: 1.5;
-    font-size: 38px; }
-    @media screen and (max-width: 480px) {
-      .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
-        font-size: 18px; } }
-
-.home-plan-section h1, .home-plan-section .h1, .home-plan-section h2, .home-plan-section .h2 {
-  color: white; }
-
-.stay-updated-section h1, .stay-updated-section .h1 {
-  color: white; }
-
-.about-us-content {
-  color: white;
-  padding: 0 10rem; }
-
-.content-block {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 5rem; }
-
-.content-image {
-  flex: 1;
-  max-width: 35%;
-  margin-right: 2rem; }
-
-.content-text {
-  flex: 1;
-  max-width: 55%; }
-
-/* Media Query for small screens */
-@media (max-width: 1000px) {
-  .about-us-content {
-    padding: 0 1rem; }
-  .content-block {
-    flex-direction: column; }
-  .content-image, .content-text {
-    max-width: 100%; } }
+.home-page .site-logo {
+  width: 70px; }
 
 @media screen and (max-width: 480px) {
   .home-page .banner-font-large {
@@ -4784,20 +4722,102 @@ textarea.form-control-lg {
 .content-image {
   flex: 1;
   max-width: 35%;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  margin-left: 2rem;
+  border-radius: 10px; }
 
 .content-text {
   flex: 1;
   max-width: 55%; }
 
 /* Media Query for small screens */
+@media (max-width: 1600px) {
+  .content-image {
+    max-width: 50%; } }
+
 @media (max-width: 1000px) {
   .about-us-content {
     padding: 0 1rem; }
   .content-block {
     flex-direction: column; }
   .content-image, .content-text {
-    max-width: 100%; } }
+    max-width: 100%;
+    margin: 1rem 0; } }
+
+.home-page .site-logo {
+  width: 70px; }
+
+@media screen and (max-width: 480px) {
+  .home-page .banner-font-large {
+    font-size: 20px; } }
+
+.home-page a.btn-primary {
+  margin-top: 2rem;
+  background: white;
+  color: #134B4E;
+  font-size: 20px; }
+
+.home-page .home-plan-section h1, .home-page .home-plan-section .h1,
+.home-page .home-plan-section h4,
+.home-page .home-plan-section .h4 {
+  color: white !important; }
+
+.home-page .pround-pioneer {
+  text-align: center;
+  padding: 0 10rem;
+  margin: 0 auto;
+  width: 70%; }
+  @media screen and (max-width: 480px) {
+    .home-page .pround-pioneer {
+      width: 100%;
+      padding: 0 1rem; } }
+  .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
+    line-height: 1.5;
+    font-size: 38px; }
+    @media screen and (max-width: 480px) {
+      .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
+        font-size: 18px; } }
+
+.home-plan-section h1, .home-plan-section .h1, .home-plan-section h2, .home-plan-section .h2 {
+  color: white; }
+
+.stay-updated-section h1, .stay-updated-section .h1 {
+  color: white; }
+
+.about-us-content {
+  color: white;
+  padding: 0 10rem; }
+
+.content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5rem; }
+
+.content-image {
+  flex: 1;
+  max-width: 35%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  border-radius: 10px; }
+
+.content-text {
+  flex: 1;
+  max-width: 55%; }
+
+/* Media Query for small screens */
+@media (max-width: 1600px) {
+  .content-image {
+    max-width: 50%; } }
+
+@media (max-width: 1000px) {
+  .about-us-content {
+    padding: 0 1rem; }
+  .content-block {
+    flex-direction: column; }
+  .content-image, .content-text {
+    max-width: 100%;
+    margin: 1rem 0; } }
 
 .stay-updated-section {
   color: white; }
