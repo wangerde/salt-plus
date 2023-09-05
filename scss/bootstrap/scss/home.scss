@@ -1,4 +1,9 @@
 .home-page {
+  .carousel-caption {
+    margin-top: 1rem;
+  }
+  
+  
   .banner-font-large {
     @media screen and (max-width: 480px) {
       font-size: 20px;
@@ -7,7 +12,7 @@
   a.btn-primary {
     margin-top: 2rem;
     background: white;
-    color: $primary;
+    color: #134B4E;
     font-size: 20px;
   }
   .home-plan-section {
@@ -66,6 +71,8 @@
   flex: 1;
   max-width: 35%;
   margin-right: 2rem;
+  margin-left: 2rem;
+  border-radius: 10px;
 }
 
 .content-text {
@@ -73,7 +80,32 @@
   max-width: 55%;
 }
 
+.manufacturing-info {
+  font-size: 20px;
+}
+
+.milk-chart-info {
+  font-size: 40px;
+  font-weight: bold;
+  color: #134B4E;;
+}
+.milk-chart-img {
+  width: 100%;
+}
+
+.primary-font-color {
+  color: #134B4E;
+}
+
+
 /* Media Query for small screens */
+@media (max-width: 1600px) {
+
+  .content-image {
+      max-width: 50%;
+  }
+}
+
 @media (max-width: 1000px) {
   .about-us-content {
       padding: 0 1rem;
@@ -83,5 +115,29 @@
   }
   .content-image, .content-text {
       max-width: 100%;
+      margin: 1rem 0;
+  }
+  .navbar-expand-lg {
+    padding: 0 1rem !important;
+  }
+
+ 
+
+  .home-page {
+    .site-logo {
+      width: 40px;
+    }
+  }
+  .milk-chart-info {
+    font-size: 18px;
+    padding: 0 3rem;
+  } 
+
+  .product-item {
+    height: 300px;
+  }
+
+  .mobile-remove {
+    display: none;
   }
 }
