@@ -3,9 +3,7 @@
     margin-top: 1rem;
   }
   
-  .site-logo {
-    width: 70px;
-  }
+  
   .banner-font-large {
     @media screen and (max-width: 480px) {
       font-size: 20px;
@@ -86,6 +84,19 @@
   font-size: 20px;
 }
 
+.milk-chart-info {
+  font-size: 40px;
+  font-weight: bold;
+  color: #134B4E;;
+}
+.milk-chart-img {
+  width: 100%;
+}
+
+.primary-font-color {
+  color: #134B4E;
+}
+
 
 /* Media Query for small screens */
 @media (max-width: 1600px) {
@@ -110,7 +121,19 @@
     padding: 0 1rem !important;
   }
 
-  .site-logo {
-    width: 40px;
+ 
+
+  .home-page {
+    .site-logo {
+      width: 40px;
+    }
+  }
+  .milk-chart-info {
+    font-size: 18px;
+    padding: 0 3rem;
+  } 
+
+  .product-item {
+    height: 300px;
   }
 }

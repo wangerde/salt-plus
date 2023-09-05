@@ -146,7 +146,7 @@ h6,
   height: 3rem;
 }
 
-.service-item {
+.product-item {
   position: relative;
   overflow: hidden;
   height: 500px;
@@ -157,7 +157,7 @@ h6,
   transition: 0.3s;
 }
 
-.service-item::after {
+.product-item::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -170,15 +170,15 @@ h6,
   transition: 0.5s;
 }
 
-.service-item:hover::after {
+.product-item:hover::after {
   bottom: -25px;
 }
 
-.service-item p {
+.product-item p {
   transition: 0.3s;
 }
 
-.service-item:hover p {
+.product-item:hover p {
   margin-bottom: 25px !important;
 }
 
