@@ -4684,7 +4684,7 @@ textarea.form-control-lg {
 .home-page a.btn-primary {
   margin-top: 2rem;
   background: white;
-  color: #134B4E;
+  color: #134b4e;
   font-size: 20px; }
 
 .home-page .home-plan-section h1, .home-page .home-plan-section .h1,
@@ -4708,7 +4708,9 @@ textarea.form-control-lg {
       .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
         font-size: 18px; } }
 
-.home-plan-section h1, .home-plan-section .h1, .home-plan-section h2, .home-plan-section .h2 {
+.home-plan-section h1, .home-plan-section .h1,
+.home-plan-section h2,
+.home-plan-section .h2 {
   color: white; }
 
 .stay-updated-section h1, .stay-updated-section .h1 {
@@ -4723,6 +4725,9 @@ textarea.form-control-lg {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 5rem; }
+
+.reverse-block {
+  flex-direction: row-reverse; }
 
 .content-image {
   flex: 1;
@@ -4742,7 +4747,7 @@ textarea.form-control-lg {
 .milk-chart-info {
   font-size: 40px;
   font-weight: bold;
-  color: #134B4E;
+  color: #134b4e;
   padding: 0 10rem; }
 
 .milk-chart-img {
@@ -4750,24 +4755,40 @@ textarea.form-control-lg {
   padding: 0 10rem; }
 
 .primary-font-color {
-  color: #134B4E; }
+  color: #134b4e; }
 
 .team-members {
   padding: 0 10rem; }
 
+.cow-image {
+  margin: 1rem 0;
+  width: 100%;
+  height: 600px; }
+
 /* Media Query for small screens */
 @media (max-width: 1600px) {
-  .content-image {
-    max-width: 50%; } }
-
-@media (max-width: 1000px) {
   .about-us-content {
     padding: 0 1rem; }
   .content-block {
     flex-direction: column; }
-  .content-image, .content-text {
+  .content-image {
     max-width: 100%;
-    margin: 1rem 0; }
+    margin: 0 auto; }
+  .content-text {
+    padding: 0 10rem;
+    max-width: 100%;
+    margin: 2rem 0; } }
+
+@media (max-width: 1000px) {
+  .banner-text {
+    font-size: 16px !important; }
+  .rounded-pill {
+    margin-top: 0 !important;
+    font-size: 16px !important; }
+  .cow-image {
+    height: unset; }
+  .content-text {
+    padding: 0; }
   .navbar-expand-lg {
     padding: 0 1rem !important; }
   .home-page .site-logo {
@@ -4797,7 +4818,7 @@ textarea.form-control-lg {
 .home-page a.btn-primary {
   margin-top: 2rem;
   background: white;
-  color: #134B4E;
+  color: #134b4e;
   font-size: 20px; }
 
 .home-page .home-plan-section h1, .home-page .home-plan-section .h1,
@@ -4821,7 +4842,9 @@ textarea.form-control-lg {
       .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
         font-size: 18px; } }
 
-.home-plan-section h1, .home-plan-section .h1, .home-plan-section h2, .home-plan-section .h2 {
+.home-plan-section h1, .home-plan-section .h1,
+.home-plan-section h2,
+.home-plan-section .h2 {
   color: white; }
 
 .stay-updated-section h1, .stay-updated-section .h1 {
@@ -4836,6 +4859,9 @@ textarea.form-control-lg {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 5rem; }
+
+.reverse-block {
+  flex-direction: row-reverse; }
 
 .content-image {
   flex: 1;
@@ -4855,7 +4881,7 @@ textarea.form-control-lg {
 .milk-chart-info {
   font-size: 40px;
   font-weight: bold;
-  color: #134B4E;
+  color: #134b4e;
   padding: 0 10rem; }
 
 .milk-chart-img {
@@ -4863,24 +4889,40 @@ textarea.form-control-lg {
   padding: 0 10rem; }
 
 .primary-font-color {
-  color: #134B4E; }
+  color: #134b4e; }
 
 .team-members {
   padding: 0 10rem; }
 
+.cow-image {
+  margin: 1rem 0;
+  width: 100%;
+  height: 600px; }
+
 /* Media Query for small screens */
 @media (max-width: 1600px) {
-  .content-image {
-    max-width: 50%; } }
-
-@media (max-width: 1000px) {
   .about-us-content {
     padding: 0 1rem; }
   .content-block {
     flex-direction: column; }
-  .content-image, .content-text {
+  .content-image {
     max-width: 100%;
-    margin: 1rem 0; }
+    margin: 0 auto; }
+  .content-text {
+    padding: 0 10rem;
+    max-width: 100%;
+    margin: 2rem 0; } }
+
+@media (max-width: 1000px) {
+  .banner-text {
+    font-size: 16px !important; }
+  .rounded-pill {
+    margin-top: 0 !important;
+    font-size: 16px !important; }
+  .cow-image {
+    height: unset; }
+  .content-text {
+    padding: 0; }
   .navbar-expand-lg {
     padding: 0 1rem !important; }
   .home-page .site-logo {
