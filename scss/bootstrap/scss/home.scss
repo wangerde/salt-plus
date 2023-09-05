@@ -1,4 +1,8 @@
 .home-page {
+  .carousel-caption {
+    margin-top: 1rem;
+  }
+  
   .site-logo {
     width: 70px;
   }
@@ -10,7 +14,7 @@
   a.btn-primary {
     margin-top: 2rem;
     background: white;
-    color: $primary;
+    color: #134B4E;
     font-size: 20px;
   }
   .home-plan-section {
@@ -78,6 +82,11 @@
   max-width: 55%;
 }
 
+.manufacturing-info {
+  font-size: 20px;
+}
+
+
 /* Media Query for small screens */
 @media (max-width: 1600px) {
 
@@ -96,5 +105,12 @@
   .content-image, .content-text {
       max-width: 100%;
       margin: 1rem 0;
+  }
+  .navbar-expand-lg {
+    padding: 0 1rem !important;
+  }
+
+  .site-logo {
+    width: 40px;
   }
 }
