@@ -2939,7 +2939,7 @@ textarea.form-control-lg {
 .navbar {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
@@ -3182,6 +3182,14 @@ textarea.form-control-lg {
   .navbar-dark .navbar-text a:hover,
   .navbar-dark .navbar-text a:focus {
     color: #fff; }
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  margin: 10px 0; }
+  .brand-logo img {
+    width: 6%;
+    margin-right: 10px; }
 
 .card {
   position: relative;
@@ -4692,6 +4700,40 @@ textarea.form-control-lg {
       .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
         font-size: 18px; } }
 
+.home-plan-section h1, .home-plan-section .h1, .home-plan-section h2, .home-plan-section .h2 {
+  color: white; }
+
+.stay-updated-section h1, .stay-updated-section .h1 {
+  color: white; }
+
+.about-us-content {
+  color: white;
+  padding: 0 10rem; }
+
+.content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5rem; }
+
+.content-image {
+  flex: 1;
+  max-width: 35%;
+  margin-right: 2rem; }
+
+.content-text {
+  flex: 1;
+  max-width: 55%; }
+
+/* Media Query for small screens */
+@media (max-width: 1000px) {
+  .about-us-content {
+    padding: 0 1rem; }
+  .content-block {
+    flex-direction: column; }
+  .content-image, .content-text {
+    max-width: 100%; } }
+
 @media screen and (max-width: 480px) {
   .home-page .banner-font-large {
     font-size: 20px; } }
@@ -4722,6 +4764,40 @@ textarea.form-control-lg {
     @media screen and (max-width: 480px) {
       .home-page .pround-pioneer h4, .home-page .pround-pioneer .h4 {
         font-size: 18px; } }
+
+.home-plan-section h1, .home-plan-section .h1, .home-plan-section h2, .home-plan-section .h2 {
+  color: white; }
+
+.stay-updated-section h1, .stay-updated-section .h1 {
+  color: white; }
+
+.about-us-content {
+  color: white;
+  padding: 0 10rem; }
+
+.content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5rem; }
+
+.content-image {
+  flex: 1;
+  max-width: 35%;
+  margin-right: 2rem; }
+
+.content-text {
+  flex: 1;
+  max-width: 55%; }
+
+/* Media Query for small screens */
+@media (max-width: 1000px) {
+  .about-us-content {
+    padding: 0 1rem; }
+  .content-block {
+    flex-direction: column; }
+  .content-image, .content-text {
+    max-width: 100%; } }
 
 .stay-updated-section {
   color: white; }
