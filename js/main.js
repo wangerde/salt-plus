@@ -55,6 +55,14 @@
             '<i class="bi bi-arrow-right"></i>'
         ],
     });
+
+    $(".navbar-toggler").click(function() {
+        if(!$(".navbar-toggler").hasClass("collapsed")){
+            $('.navbar-brand').css("display","none");
+        } else {
+            $('.navbar-brand').css("display","flex");
+        }
+    })
     
 })(jQuery);
 
